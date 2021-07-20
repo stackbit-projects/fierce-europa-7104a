@@ -1,0 +1,41 @@
+title: My personal blog - Adam Neilson
+email: null
+description: >
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: ''
+url: ''
+author: Adam Neilson
+author-pic: adam-face.jpg
+about-author: >-
+  My name is Adam Neilson. I’m a full-time adventure travel blogger and
+  photographer who’s been exploring the world for over 2 years.
+phone: null
+website: null
+linkedin: null
+github: artemsheludko
+twitter: '@artemsheludko_'
+facebook: null
+instagram: null
+pinterest: null
+mailchimp: null
+discus_identifier: mr-brown
+analytics: null
+paginate: 6
+paginate_path: '/page:num/'
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+include:
+  - _pages
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
+  - package-lock.json
+  - assets/css/sass/
